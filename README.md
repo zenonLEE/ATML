@@ -43,28 +43,19 @@ label, confidence = classify_text(text, print_details=True)
 
 print(f"Predicted Class: {label}")
 print(f"Confidence: {confidence:.4f}")
+
+
 ⚙️ Dependencies
+Install required packages:
+
 bash
 Copy
 Edit
 pip install numpy scikit-learn
 Tested with:
 
-Python 3.8+
+Python ≥ 3.8
 
-scikit-learn 1.3+
+scikit-learn ≥ 1.3
 
-NumPy 1.22+
-
-🏁 How to Run
-Make sure s1.txt, s2.txt, s3.txt are in the working directory.
-
-(Optional) Add a test.txt file for external evaluation.
-Format: each line like text | label or tab-separated.
-
-Run:
-
-bash
-Copy
-Edit
-python atml_text_classifier.py
+NumPy ≥ 1.22
