@@ -43,19 +43,56 @@ label, confidence = classify_text(text, print_details=True)
 
 print(f"Predicted Class: {label}")
 print(f"Confidence: {confidence:.4f}")
-```python
 
-⚙️ Dependencies
+
+---
+
+## ⚙️ Dependencies
+
 Install required packages:
 
-bash
-Copy
-Edit
+```bash
 pip install numpy scikit-learn
-Tested with:
+```
 
-Python ≥ 3.8
+**Tested with:**
+- Python ≥ 3.8  
+- scikit-learn ≥ 1.3  
+- NumPy ≥ 1.22
 
-scikit-learn ≥ 1.3
+---
 
-NumPy ≥ 1.22
+## ▶️ How to Run
+
+Make sure the following files are in the working directory:
+- `s1.txt`, `s2.txt`, `s3.txt` – for training
+- *(Optional)* `test.txt` – for external evaluation
+
+**Test file format**:
+```
+sample text | true label
+```
+or tab-separated:
+```
+sample text <TAB> true label
+```
+
+Run the model:
+
+```bash
+python atml_text_classifier.py
+```
+<!-- This is a hidden comment -->
+---
+
+## 📚 Citation
+
+If you use this code or framework, please cite:
+
+> **"A Novel Framework for Adsorption Thermodynamics: Combining Standardized Methodology with Machine Learning-based Text Classification"**
+<!-- This is a hidden comment -->
+---
+
+## 📬 Contact
+
+Developed by Yuanming Li
