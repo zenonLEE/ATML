@@ -43,7 +43,7 @@ label, confidence = classify_text(text, print_details=True)
 
 print(f"Predicted Class: {label}")
 print(f"Confidence: {confidence:.4f}")
-
+```python
 
 ⚙️ Dependencies
 Install required packages:
