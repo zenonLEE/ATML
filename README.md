@@ -10,6 +10,12 @@ It distinguishes between the following three adsorption system assumptions:
 - **Polanyi Open System**
 - **Modern Open System**
 
+## 🖼️ Model Overview
+
+The following diagram illustrates the full pipeline for text-based classification of adsorption thermodynamic assumptions:
+
+![Text Classification Pipeline](assets/images/overview.png)
+
 ---
 
 ## 🚀 Features
